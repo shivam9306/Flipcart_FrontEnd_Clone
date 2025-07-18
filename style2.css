@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("./flipcart-asset/logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 50%;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid black;
+}
+/** box2 **/
+.nav-search{
+    display: flex;
+    align-content:space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    border: none;
+ }
+ .search-input{
+     width: 100%;
+     font-size: 1rem;
+     border: none;
+ }
+ .search-icon{
+     width: 45px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.2rem;
+     background-color:rgb(255, 153, 0) ;
+     border-top-right-radius:4px ;
+     border-bottom-right-radius: 4px;
+ }
+ /** box3 **/
+ .nav-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ /** box4 **/
+ .nav-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ /** box5 **/
+ .nav-seller{
+    font-size: 20px;
+    font-weight: 500;
+ }
+ .container{
+    height: 150px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .container p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 3px;
+    color: blueviolet;
+ }
+ /**1 **/
+ .grocery{
+    height: 120px;
+    width: 150px;
+ }
+ .grocery-logo{
+    background-image: url("./flipcart-asset/grocery.webp");
+    background-size: cover;
+    height :120px;
+    width: 90%;
+}
+/** 2 **/
+.mobile{
+    height: 120px;
+    width: 150px;
+}
+.mobile-logo{
+    background-image: url("./flipcart-asset/mobile.webp");
+    background-size: cover;
+    height :120px;
+    width: 90%;
+}
+/** 3 **/
+.fashion{
+    height: 120px;
+    width: 150px;
+}
+.fashion-logo{
+    background-image: url("./flipcart-asset/fashion.webp");
+    background-size: cover;
+    height :120px;
+    width: 90%;
+}
+/** 4 **/
+.electronics{
+    height: 120px;
+    width: 150px;
+}
+.electronics-logo{
+    background-image: url("./flipcart-asset/electronics.webp");
+    background-size: cover;
+    height :120px;
+    width: 90%;
+}
+/** 5 **/
+.application{
+    height: 120px;
+    width: 150px;
+}
+.appliance-logo{
+    background-image: url("./flipcart-asset/appliance.webp");
+    background-size: cover;
+    height :120px;
+    width: 90%;
+}
+/** 6 **/
+.Toys{
+    height: 120px;
+    width: 150px;
+}
+.Toys-logo{
+    background-image: url("./flipcart-asset/beauty\ &\ toys.webp");
+    background-size: cover;
+    height :120px;
+    width: 90%;
+}
+.shop{
+    margin-top: 2rem;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 200px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 170px;
+    background-size: cover;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.box p{
+    color: #007185;
+    margin-left: 2rem;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.electronic{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.festival{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+/** footer **/
+.foot-panel{
+    background-color: #222a3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul p{
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.553);
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.foot-panel2{
+    background-color: #222a3d;
+    border-top: 0.5px solid white;
+    color: white;
+    height: 100px;
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 700;
+}
+.pages{
+padding-top: 25px;
+}
+.copyright{
+padding-top: 5px;
+}
